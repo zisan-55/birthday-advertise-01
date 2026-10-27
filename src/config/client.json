@@ -1,76 +1,127 @@
 {
-  "siteId": "birthday-template-example",
+  "siteId": "birthday-advertise-01",
   "recipient": {
-    "name": "Birthday Person",
-    "nickname": "Birthday Star",
-    "age": 23,
-    "birthdayDate": "2026-11-11",
+    "name": "AYRA",
+    "nickname": "MADOO",
+    "age": 22,
+    "birthdayDate": "2026-10-28",
     "birthdayTime": "00:00:00",
     "timezone": "Asia/Dhaka"
   },
   "sender": {
-    "name": "Your Sender"
+    "name": "AFJAL"
   },
   "messages": {
     "reveal": null,
     "introduction": null,
-    "closing": null,
+    "closing": "Happy Birthday, my princess! 🎀💗\n\nYou are my favorite person, my sweetest happiness, and the most beautiful part of my life. 🥹💕 Every moment with you feels like a little piece of magic. I hope your smile never fades and all your dreams come true. No matter how many birthdays pass, you'll always be my favorite girl. I love you sooo much, my pretty baby! 💋🎂💖",
     "signature": null
   },
   "photos": {
     "regular": [
       {
-        "src": "/images/gallery/photo-01.svg",
-        "alt": "Sample illustration 1",
+        "src": "/images/client/regular-07.jpg",
+        "alt": "AYRA, portrait 7",
         "caption": null
       },
       {
-        "src": "/images/gallery/photo-02.svg",
-        "alt": "Sample illustration 2",
+        "src": "/images/client/regular-02.jpg",
+        "alt": "AYRA, portrait 2",
         "caption": null
       },
       {
-        "src": "/images/gallery/photo-03.svg",
-        "alt": "Sample illustration 3",
+        "src": "/images/client/regular-05.jpg",
+        "alt": "AYRA, portrait 5",
         "caption": null
       },
       {
-        "src": "/images/gallery/photo-04.svg",
-        "alt": "Sample illustration 4",
+        "src": "/images/client/regular-03.jpg",
+        "alt": "AYRA, portrait 3",
         "caption": null
       },
       {
-        "src": "/images/gallery/photo-05.svg",
-        "alt": "Sample illustration 5",
+        "src": "/images/client/regular-01.jpg",
+        "alt": "AYRA, portrait 1",
         "caption": null
       },
       {
-        "src": "/images/gallery/photo-06.svg",
-        "alt": "Sample illustration 6",
+        "src": "/images/client/regular-10.jpg",
+        "alt": "AYRA, portrait 10",
         "caption": null
       },
       {
-        "src": "/images/gallery/photo-07.svg",
-        "alt": "Sample illustration 7",
+        "src": "/images/client/regular-06.jpg",
+        "alt": "AYRA, portrait 6",
         "caption": null
       },
       {
-        "src": "/images/gallery/photo-08.svg",
-        "alt": "Sample illustration 8",
+        "src": "/images/client/regular-11.jpg",
+        "alt": "AYRA, portrait 11",
         "caption": null
       },
       {
-        "src": "/images/gallery/photo-09.svg",
-        "alt": "Sample illustration 9",
+        "src": "/images/client/regular-04.jpg",
+        "alt": "AYRA, portrait 4",
         "caption": null
       },
       {
-        "src": "/images/gallery/photo-10.svg",
-        "alt": "Sample illustration 10",
+        "src": "/images/client/regular-09.jpg",
+        "alt": "AYRA, portrait 9",
+        "caption": null
+      },
+      {
+        "src": "/images/client/regular-12.jpg",
+        "alt": "AYRA, portrait 12",
+        "caption": null
+      },
+      {
+        "src": "/images/client/regular-08.jpg",
+        "alt": "AYRA, portrait 8",
         "caption": null
       }
     ],
-    "couple": []
+    "couple": [
+      {
+        "src": "/images/client/couple-01.jpg",
+        "alt": "AYRA and AFJAL, photo 1",
+        "caption": null
+      },
+      {
+        "src": "/images/client/couple-02.jpg",
+        "alt": "AYRA and AFJAL, photo 2",
+        "caption": null
+      },
+      {
+        "src": "/images/client/couple-03.jpg",
+        "alt": "AYRA and AFJAL, photo 3",
+        "caption": null
+      },
+      {
+        "src": "/images/client/couple-04.jpg",
+        "alt": "AYRA and AFJAL, photo 4",
+        "caption": null
+      },
+      {
+        "src": "/images/client/couple-05.jpg",
+        "alt": "AYRA and AFJAL, photo 5",
+        "caption": null
+      },
+      {
+        "src": "/images/client/couple-06.jpg",
+        "alt": "AYRA and AFJAL, photo 6",
+        "caption": null
+      },
+      {
+        "src": "/images/client/couple-07.jpg",
+        "alt": "AYRA and AFJAL, photo 7",
+        "caption": null
+      },
+      {
+        "src": "/images/client/couple-08.jpg",
+        "alt": "AYRA and AFJAL, photo 8",
+        "caption": null
+      }
+    ]
   },
   "music": {
     "src": null,
@@ -87,5 +138,5 @@
     null,
     null
   ],
-  "photoPackage": 10
+  "photoPackage": 20
 }

@@ -36,8 +36,8 @@ const defaults = {
   cinema: {
     enabled: true,
     topBannerText: "SAVE THE DATE",
-    productionLead: "A",
-    productionSuffix: "production",
+    productionLead: "This is for you, my",
+    productionSuffix: "",
     subtitleLead: "live",
     mainHeading: "NOW SHOWING",
     footerText: "DOORS OPEN AT MIDNIGHT",
