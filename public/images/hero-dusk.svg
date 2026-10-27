@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+  <title id="title">A quiet evening by the sea</title>
+  <desc id="desc">A dark, atmospheric shoreline with the silhouette of a person watching the dusk horizon.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#090e17"/><stop offset=".46" stop-color="#222d34"/><stop offset=".66" stop-color="#76574b"/><stop offset=".78" stop-color="#272629"/><stop offset="1" stop-color="#070a0d"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#d18d61" stop-opacity=".54"/><stop offset="1" stop-color="#d18d61" stop-opacity="0"/></radialGradient>
+    <linearGradient id="water" x2="0" y2="1"><stop stop-color="#4b4543"/><stop offset=".35" stop-color="#252a2d"/><stop offset="1" stop-color="#0b0f12"/></linearGradient>
+    <linearGradient id="silhouette" x2="0" y2="1"><stop stop-color="#111517"/><stop offset="1" stop-color="#050708"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="54"/></filter>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".82" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values=".16 0 0 0 .1 .16 0 0 0 .1 .16 0 0 0 .1 0 0 0 .18 0"/></filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <ellipse cx="1050" cy="563" rx="690" ry="220" fill="url(#glow)" filter="url(#soft)"/>
+  <circle cx="1390" cy="358" r="2" fill="#e4d4c1" opacity=".62"/><circle cx="525" cy="274" r="1.5" fill="#e4d4c1" opacity=".48"/><circle cx="806" cy="337" r="1.4" fill="#fff" opacity=".35"/>
+  <path d="M0 585c260-26 434 34 680 4s423-29 641 2 399 1 599-14v159H0z" fill="#171e21" opacity=".9"/>
+  <path d="M0 636c210-15 367 27 561 2s402-15 606 13 473 23 753-4v433H0z" fill="url(#water)"/>
+  <path d="M0 699c170-18 314 10 468 0m62 11c226-20 315-14 474 7m56-2c197 21 403 15 624-4M71 777c149-12 237-9 333 7m-101 63c195-10 319-2 464 15m134-30c146 9 302 3 423-9m-861 124c213-16 379-8 524 8m-81-72c145 3 279-1 427-13" fill="none" stroke="#c3a28a" stroke-opacity=".1" stroke-width="3"/>
+  <path d="M1258 1080c-9-126-3-267 6-378 7-88 8-159 4-200-3-27-17-49-37-63-17-12-23-28-16-47 8-22 32-31 54-24 29 9 40 37 32 62-5 15-17 25-27 39-11 17-11 39-6 73l28 151 36-216c7-38 18-64 43-76 22-11 50-1 58 22 8 23-3 44-26 61-18 13-28 32-33 63l-30 214c22-53 43-95 69-121 19-19 42-28 60-15 22 16 17 42-5 60-27 22-46 44-64 83-35 76-54 165-60 312z" fill="url(#silhouette)"/>
+  <path d="M1190 1080c21-124 32-210 24-288-7-69-23-119-56-165-28-39-61-74-85-126 35 22 74 44 105 70 48 42 79 90 93 152 20-77 63-133 130-174 38-23 78-42 116-72-20 61-52 111-88 153-37 44-68 93-80 160-13 71-7 177 5 290z" fill="#06090b" opacity=".58"/>
+  <path d="M0 1024c210-34 377-29 576-7s364 28 569 13 430-35 775-14v64H0z" fill="#050709" opacity=".72"/>
+  <rect width="1920" height="1080" filter="url(#grain)" opacity=".2"/>
+</svg>

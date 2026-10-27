@@ -1,0 +1,29 @@
+{
+  "name": "birthday-memory-template",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "validate": "node scripts/validate-client.mjs",
+    "prebuild": "npm run validate && npm test",
+    "build:check": "npm run validate && npm test && tsc -b && vite build --outDir .build-check --emptyOutDir false",
+    "test": "node scripts/test-personalization.mjs",
+    "test:packages": "node scripts/test-personalization.mjs --build-packages",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.1",
+    "esbuild": "0.25.12"
+  }
+}

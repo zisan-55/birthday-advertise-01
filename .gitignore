@@ -1,0 +1,36 @@
+node_modules/
+dist/
+.build-check/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+*.local
+*.log
+.tmp/
+tmp/
+.DS_Store
+Thumbs.db
+
+# Private material and local work products
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+.secrets/
+.ssh/
+.aws/
+Clients/
+private-intake/
+intake/
+test-evidence/
+coverage/
+*.tmp
+*.bak
+.vscode/
+.idea/
+
+# Disposable synthetic media created by personalization tests
+public/.photo-system-test-*/

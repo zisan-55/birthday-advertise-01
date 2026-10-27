@@ -1,0 +1,92 @@
+{
+  "siteId": "<unique-site-id>",
+  "recipient": {
+    "name": "<recipient-name>",
+    "nickname": "<recipient-nickname>",
+    "age": 0,
+    "birthdayDate": "<YYYY-MM-DD>",
+    "birthdayTime": "<HH:MM:SS>",
+    "timezone": "<IANA-timezone>"
+  },
+  "sender": {
+    "name": "<sender-name>"
+  },
+  "messages": {
+    "reveal": null,
+    "introduction": null,
+    "closing": null,
+    "signature": null
+  },
+  "photos": {
+    "regular": [
+      {
+        "src": "/images/client/regular-1.jpg",
+        "alt": null,
+        "caption": null
+      },
+      {
+        "src": "/images/client/regular-2.jpg",
+        "alt": null,
+        "caption": null
+      },
+      {
+        "src": "/images/client/regular-3.jpg",
+        "alt": null,
+        "caption": null
+      },
+      {
+        "src": "/images/client/regular-4.jpg",
+        "alt": null,
+        "caption": null
+      },
+      {
+        "src": "/images/client/regular-5.jpg",
+        "alt": null,
+        "caption": null
+      }
+    ],
+    "couple": [
+      {
+        "src": "/images/client/couple-1.jpg",
+        "alt": null,
+        "caption": null
+      },
+      {
+        "src": "/images/client/couple-2.jpg",
+        "alt": null,
+        "caption": null
+      },
+      {
+        "src": "/images/client/couple-3.jpg",
+        "alt": null,
+        "caption": null
+      },
+      {
+        "src": "/images/client/couple-4.jpg",
+        "alt": null,
+        "caption": null
+      },
+      {
+        "src": "/images/client/couple-5.jpg",
+        "alt": null,
+        "caption": null
+      }
+    ]
+  },
+  "music": {
+    "src": null,
+    "title": null,
+    "artwork": null
+  },
+  "scrapbookNotes": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "photoPackage": 10
+}
